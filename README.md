@@ -9,7 +9,7 @@ The benchmark is performed on a machine with the following specifications:
 <b>CPU:</b> AMD Ryzen 7 5800H <i>(8 cores, 16 threads)</i><br>
 <b>GPU:</b> Radeon RX 6700M
 
-<i>Note on terminology:</i> <b><i>ROCM-WT</i></b> includes the time taken by the <code>hipMemcpy()</code> function calls while <b><i>ROCM-WOT</i></b> does not.
+<i>Note on terminology:</i> <b><i>ROCM-WT</i></b> includes the time taken by the <code>hipMemcpy()</code> function calls while <b><i>ROCM-WOT</i></b> does not. <b><i>EvalPoint</i></b> is the point at which the random polynomial was evaluated to measure the time taken.
 <br><br>
 <i>Note:</i> Both OpenMP and ROCM implement the same parallel algorithm (Algorithm B from [Munro et al.]).
 
